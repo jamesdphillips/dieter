@@ -1,4 +1,4 @@
-(defproject dieter "0.3.0"
+(defproject jamesdphillips/dieter "0.3.1"
   :description "Asset pipeline ring middleware"
   :dependencies [[org.clojure/clojure "1.3.0"]
                  [ring "1.0.1"]
@@ -9,3 +9,4 @@
                  [clj-v8-native "0.1.4"]
                  [org.mozilla/rhino "1.7R4"]]
   :dev-dependencies [[org.clojure/clojure "1.3.0"]])
+

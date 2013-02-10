@@ -9,7 +9,7 @@
 (defn run-compiler [pool preloads fn-name file & {:keys [engine]}]
   (let [input (slurp file)
         absolute (.getAbsolutePath file)
-        filename (.getCanonicalPath file)
+        filename (.getPath file)
         args [input absolute filename]]
     (if (or (= (:engine settings/*settings*) :rhino)
             (= engine :rhino))
@@ -17,3 +17,4 @@
         (rhino/call fn-name args))
       (v8/with-scope pool preloads
         (v8/call fn-name args)))))
+
