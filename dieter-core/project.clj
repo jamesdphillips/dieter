@@ -1,4 +1,4 @@
-(defproject dieter "0.4.0"
+(defproject jamesdphillips/dieter "0.4.0"
   :description "Asset pipeline ring middleware"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
@@ -12,3 +12,4 @@
                  [clj-v8-native "0.1.4"]
                  [org.mozilla/rhino "1.7R4"]]
   :dev-dependencies [[org.clojure/clojure "1.4.0"]])
+
