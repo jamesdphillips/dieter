@@ -1,4 +1,4 @@
-(defproject jamesdphillips/dieter "0.3.1"
+(defproject jamesdphillips/dieter "0.3.2"
   :description "Asset pipeline ring middleware"
   :dependencies [[org.clojure/clojure "1.3.0"]
                  [ring "1.0.1"]
